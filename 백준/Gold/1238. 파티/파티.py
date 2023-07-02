@@ -23,9 +23,6 @@ def dijk(start):
     while hq:
         cost, now = heapq.heappop(hq)
 
-        if cost != 0 and now == start:
-            break
-
         if now in d:
             for nextDir, nextCost in d[now]:
                 if cost + nextCost < l[nextDir]:
