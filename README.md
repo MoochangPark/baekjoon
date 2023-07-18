@@ -140,3 +140,4 @@
 ---
 ### 23년 7월 18일
 - [x] 2580 - 단순 구현 문제. 다만 dfs 사용시 return은 이전으로 돌아가는 것 뿐이므로 완전히 해당 순간에서 끝내고 싶으면 exit()를 사용해야 함
+- [x] 1717 - 유니온-파인드 알고리즘. 이 알고리즘을 쓸 때는 import sys / input = sys.stdin.readline / sys.setrecursionlimit(100000) 을 해야함
