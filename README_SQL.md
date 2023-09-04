@@ -21,3 +21,5 @@
 - [X] 144853 - 132203과 같이 DATE_FORMAT 사용, 사용할 떄 AS로 바꿔주는게 필요
 - [X] 151136 - 평균은 AVG, 반올림은 ROUND, 올림은 CEIL, 내림은 FLOOR, 중첩 가능(EX. ROUND(AVG())
 - [X] 59034 - SELECT에서 모든 선택은 *
+- [X] 133025 - JOIN 사용법 ( SELECT A.FLAVOR FROM FIRST_HALF AS A LEFT JOIN ICECREAM_INFO AS B ON A.FLAVOR = B.FLAVOR )
+- [X] 59415 - 59405의 LIMIT과 같은 방법
