@@ -12,3 +12,4 @@
 - [X] 59404 - ORDER BY에서 여러개 적용 가능, 각 조건마다 ASC와 DESC 적용 가능 (EX. NAME ASC, ID DESC)
 - [X] 131697 - 최대 값은 MAX
 - [X] 131114 - 표기 내용을 바꾸는 것은 SELECT에서 IF 사용, 내용에 조건이 들어있는지 확인은 WHERE과 LIKE (%는 여러개, _는 한개)
+- [X] 59039 - 131528의 IS NULL과 같
