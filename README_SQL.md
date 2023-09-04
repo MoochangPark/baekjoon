@@ -23,3 +23,4 @@
 - [X] 59034 - SELECT에서 모든 선택은 *
 - [X] 133025 - JOIN 사용법 ( SELECT A.FLAVOR FROM FIRST_HALF AS A LEFT JOIN ICECREAM_INFO AS B ON A.FLAVOR = B.FLAVOR )
 - [X] 59415 - 59405의 LIMIT과 같은 방법
+- [X] 157343 - LIKE 사용할 떄 중간에 포함되는 내용이면 %를 양 옆으로 붙임 (EX. %네비게이션%)
