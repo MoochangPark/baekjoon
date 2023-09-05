@@ -35,3 +35,4 @@
 - [X] 131115 - 제일 높은 값 하나를 원할 떄는 LIMIT 혹은 조건에 () 사용 (EX. WHERE PRICE = (SELECT MAX(PRICE) FROM TABLE))
 - [X] 59409 - IF에서도 OR로 조건 여러개 가능 (EX. IF(SEX_UPON_INTAKE LIKE "%Neutered%" OR SEX_UPON_INTAKE LIKE "%Spayed%", "O", "X")) 혹은 CASE로 처리 (EX. CASE WHEN SEX_UPON_INTAKE LIKE 'Neutered%' OR SEX_UPON_INTAKE LIKE 'Spayed%' THEN 'O' 
  ELSE 'X' END 중성화 )
+- [X] 131529 - 별칭으로 지어진 컬럼도 GROUP BY 사용 가능
