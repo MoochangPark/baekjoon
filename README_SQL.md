@@ -42,3 +42,4 @@
 - [X] 144854 - 간단한 JOIN은 INNER JOIN
 - [X] 59046 - WHERE에서 간단하게 IN으로 처리 가능 (EX. NAME IN ("A", "B", "C", "D") )
 - [X] 133026 - GROUP BY 이후에 SUM이 사용됨
+- [X] 131530 - TRUNCATE는 소수점의 자리를 버릴 수 있지만 -를 사용하면 앞 자리도 버릴 수 있음
