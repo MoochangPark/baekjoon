@@ -32,3 +32,4 @@
 - [X] 59047 - 여러개의 조건은 AND
 - [X] 59410 - IF 조건을 사용할때 NULL인지 확인할 떄는 IS NULL
 - [X] 59414 - 날짜 형식 바꿀 떄는 DATE_FORMAT
+- [X] 131115 - 제일 높은 값 하나를 원할 떄는 LIMIT 혹은 조건에 () 사용 (EX. WHERE PRICE = (SELECT MAX(PRICE) FROM TABLE))
