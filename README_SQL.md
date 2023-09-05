@@ -41,3 +41,4 @@
 - [X] 151137 - WHERE에서 여러개 조건 사용 가능
 - [X] 144854 - 간단한 JOIN은 INNER JOIN
 - [X] 59046 - WHERE에서 간단하게 IN으로 처리 가능 (EX. NAME IN ("A", "B", "C", "D") )
+- [X] 133026 - GROUP BY 이후에 SUM이 사용됨
