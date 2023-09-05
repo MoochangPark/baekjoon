@@ -36,3 +36,4 @@
 - [X] 59409 - IF에서도 OR로 조건 여러개 가능 (EX. IF(SEX_UPON_INTAKE LIKE "%Neutered%" OR SEX_UPON_INTAKE LIKE "%Spayed%", "O", "X")) 혹은 CASE로 처리 (EX. CASE WHEN SEX_UPON_INTAKE LIKE 'Neutered%' OR SEX_UPON_INTAKE LIKE 'Spayed%' THEN 'O' 
  ELSE 'X' END 중성화 )
 - [X] 131529 - 별칭으로 지어진 컬럼도 GROUP BY 사용 가능
+- [X] 132202 - ORDER BY 에서도 COUNT 같은 것을 사용할 수 있음
