@@ -56,3 +56,4 @@
 - [X] 131113 - 조건 분류는 CASE
 - [X] 164668 - JOIN 후에 WHERE 조건으로 한번 거르고, 나머지 조건을 GROUP BY와 HAVING으로 처리
 - [X] 131123 - 조건 안에 조건이 있을 경우 WHERE (A, B) IN (SELECT A, MAX(B) FROM TABLE GROUP BY A) 방식의 IN을 사용해야 함
+- [X] 157341 - 결과의 중복 제거는 DISTINCT
