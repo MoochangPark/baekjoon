@@ -54,3 +54,4 @@
 - [X] 59411 - 교집합은 그냥 JOIN을 하면 됨.
 - [X] 144855 - JOIN 할 때 WHERE 조건을 걸어버린 후 GROUP BY 사용
 - [X] 131113 - 조건 분류는 CASE
+- [X] 164668 - JOIN 후에 WHERE 조건으로 한번 거르고, 나머지 조건을 GROUP BY와 HAVING으로 처리
