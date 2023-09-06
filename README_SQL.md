@@ -58,3 +58,4 @@
 - [X] 131123 - 조건 안에 조건이 있을 경우 WHERE (A, B) IN (SELECT A, MAX(B) FROM TABLE GROUP BY A) 방식의 IN을 사용해야 함
 - [X] 157341 - 결과의 중복 제거는 DISTINCT
 - [X] 59042 - 이름은 겹칠 수 있어 정확한 ID로 검색
+- [X] 164670 - HAVING에서 COUNT 쓸 수 있음.
