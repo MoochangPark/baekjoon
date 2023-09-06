@@ -47,3 +47,6 @@
 - [X] 131536 - 같은 테이블에서 중복체크할 떄는 JOIN이 아닌 GROUP BY에서 조건들을 전부 넣고 HAVING으로 COUNT(*) >= 2 조건을 걸어 처리해도 됨.
 - [X] 164672 - CASE와 WHEN~THEN, END 로 IF보다 여러 조건 처리 가능
 - [X] 157342 - DATEDIFF를 사용하면 항상 +1을 해주고, GROUP BY로 묶을 때 조건은 HAVING으로 처리
+---
+### 23년 9월 6일
+- [X] 59044 - 교집합을 뺴려면 WHERE B.ID IS NULL 이라는 조건을 붙여야 함
